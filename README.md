@@ -1,76 +1,66 @@
-🌊 ReliefChain
-Transparent Flood Relief on Blockchain
+# 🌊 ReliefChain
+
+## Transparent Flood Relief on Blockchain
 
 ReliefChain is a blockchain-powered flood donation platform designed to eliminate blind trust from disaster funding. Instead of relying on institutional reputation, ReliefChain uses smart contracts to lock, govern, and transparently track every donation in real time.
 
-We believe disaster relief should be verifiable, tamper-proof, and condition-bound — not trust-based.
+---
 
-🚀 Problem Statement
+## 🚀 Problem Statement
 
-During natural disasters, donation platforms lack real-time transparency. Donors often have no visibility into:
+During natural disasters, traditional donation platforms lack real-time transparency. Donors often have no visibility into:
 
-Where funds are allocated
+- Where funds are allocated  
+- When funds are withdrawn  
+- Whether funds are misused  
 
-When funds are withdrawn
+ReliefChain replaces trust-based systems with programmable accountability.
 
-Whether funds are misused
+---
 
-ReliefChain solves this by replacing trust with programmable accountability.
+## 🧠 Our Approach
 
-🧠 Solution
+- Smart contracts enforce predefined withdrawal conditions  
+- Donations are immutably recorded on blockchain  
+- Funds cannot be withdrawn arbitrarily  
+- All transactions are publicly verifiable  
+- Frontend simplifies blockchain interaction for non-technical users  
 
-Smart contracts enforce predefined withdrawal rules
+---
 
-Donations are recorded immutably on blockchain
+## 🏗 Tech Stack
 
-Funds cannot be moved arbitrarily
+### 🔹 Frontend
+- React.js  
+- Vite  
+- TypeScript  
+- Tailwind CSS  
+- Ethers.js  
 
-Every transaction is publicly verifiable
+### 🔹 Backend
+- Node.js  
+- Express.js  
+- MongoDB  
+- JWT Authentication  
 
-Frontend abstracts blockchain complexity for non-technical users
+### 🔹 Blockchain
+- Solidity  
+- Hardhat  
+- OpenZeppelin  
+- Ethereum (Sepolia Testnet)  
 
-🏗 Tech Stack
-Frontend
+### 🔹 Cloud & DevOps
+- Vercel  
+- Render / AWS EC2  
+- MongoDB Atlas  
+- Alchemy / Infura  
+- GitHub Actions  
 
-React.js
+---
 
-Vite
+## 📂 Project Structure
 
-TypeScript
-
-Tailwind CSS
-
-Ethers.js
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-JWT Authentication
-
-Blockchain
-
-Solidity
-
-Hardhat
-
-Cloud & DevOps
-
-Vercel (Frontend Hosting)
-
-Render / AWS EC2 (Backend)
-
-MongoDB Atlas
-
-Alchemy / Infura
-
-GitHub Actions
-
-📂 Project Structure
+```
 ReliefChain/
 │
 ├── frontend/
@@ -82,28 +72,62 @@ ReliefChain/
 │   └── test/
 ├── README.md
 └── LICENSE
+```
 
-🔐 Core Features
+---
 
-Create verified flood relief campaigns
+## 🔐 Core Features
 
-Donate securely via MetaMask
+- Create verified flood relief campaigns  
+- Donate securely using MetaMask  
+- Immutable on-chain transaction history  
+- Condition-based fund release  
+- Transparent donation dashboard  
 
-Immutable transaction history
+---
 
-Condition-based fund release
+## 🛠 Installation
 
-On-chain transparency dashboard
+### Clone Repository
 
-🛠 Installation
-
-Clone Repository
+```
 git clone https://github.com/YOUR_USERNAME/ReliefChain.git
 cd ReliefChain
+```
 
-Install Dependencies
-Frontend:
+### Run Frontend
 
-OpenZeppelin
+```
+cd frontend
+npm install
+npm run dev
+```
 
-Ethereum (Sepolia Testnet)
+### Run Backend
+
+```
+cd backend
+npm install
+npm run start
+```
+
+### Smart Contracts
+
+```
+cd blockchain
+npm install
+npx hardhat compile
+npx hardhat test
+```
+
+---
+
+## 🌍 Vision
+
+Shift disaster donations from **“trust the organization”** to **“trust the code.”**
+
+---
+
+## 👥 Team
+
+Built with a problem-first mindset, focusing on structural integrity, transparency, and real-world impact.
